@@ -47,8 +47,8 @@ public class ChartStateActivity extends AppCompatActivity {
         setTitle("HorizontalBar PieChart");
 
 
-        int x = 12;
-        Log.d("TEG1", String.valueOf(x));
+        int y = 12;
+        Log.d("TEG1", String.valueOf(y));
 
         horizontalBarChart_test = (HorizontalBarChart) findViewById(R.id.horizontalBarChart_test);
         pieChart_test = (PieChart) findViewById(R.id.pieChart_test);
