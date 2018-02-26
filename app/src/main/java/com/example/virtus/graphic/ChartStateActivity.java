@@ -46,6 +46,9 @@ public class ChartStateActivity extends AppCompatActivity {
 
         setTitle("HorizontalBar PieChart");
 
+
+        int x = 12;
+
         horizontalBarChart_test = (HorizontalBarChart) findViewById(R.id.horizontalBarChart_test);
         pieChart_test = (PieChart) findViewById(R.id.pieChart_test);
         //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HorizontalBarChart
@@ -118,7 +121,7 @@ public class ChartStateActivity extends AppCompatActivity {
      */
     private void addData() {
 
-        List<PieEntry> pieEntry = new ArrayList<PieEntry>();
+        List<PieEntry> pieEntry = new ArrayList<>();
         for (int i = 0; i < yData.length; i++)
             pieEntry.add(new PieEntry(xData[i], yData[i]));
 
